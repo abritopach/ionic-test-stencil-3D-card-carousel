@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
       Ionic Stencil 3D Card Carousel
     </ion-title>
@@ -8,12 +8,12 @@
 
 <ion-content padding>
   <ion-fab top right edge>
-    <button ion-fab mini (click)="loadMoreCards()"><ion-icon name="add"></ion-icon></button>
+    <button ion-fab mini (click)="loadMoreCards()" color="danger"><ion-icon name="add"></ion-icon></button>
   </ion-fab>
   Sample project that shows an experimental 3D card carousel Web Component built with stenciljs and
   integrate in Ionic
   <p>
-    Create by Adrián Brito Pacheco <a href="https://github.com/abritopach">Github</a>.
+    Created by Adrián Brito Pacheco <a href="https://github.com/abritopach">Github</a>.
   </p>
-  <st-3D-card-carousel [slides]="slides"></st-3D-card-carousel>
+  <st-3D-card-carousel [slides]="slides" (selectedItem)="handleSelectedItem($event)"></st-3D-card-carousel>
 </ion-content>

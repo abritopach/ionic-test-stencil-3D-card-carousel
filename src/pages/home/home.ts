@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+import { DetailsPage } from '../details/details';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -11,6 +13,7 @@ export class HomePage {
   items: any;
   private start: number = 0;
   private end: number = 5;
+  selectedItem: any;
 
   constructor(public navCtrl: NavController) {
     this.items = [
@@ -194,6 +197,16 @@ export class HomePage {
    loadMoreCards() {
        console.log("loadMoreCards");
        this.getCurrentSlides();
+   }
+
+   handleSelectedItem(event) {
+    this.selectedItem = event.detail;
+    console.log('Received event from component: ', this.selectedItem);
+    setTimeout(() => {
+        this.navCtrl.push(DetailsPage, {
+            item: this.selectedItem
+        });
+      },2000);
    }
 
 }
