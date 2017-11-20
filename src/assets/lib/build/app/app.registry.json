@@ -4,8 +4,8 @@
     [
       "st-3d-card-carousel",
       [
-        "st-3d-card-carousel",
-        null
+        "ianza1ro",
+        "xdmtg5le"
       ],
       1,
       [
@@ -32,8 +32,8 @@
     [
       "stencil-async-content",
       [
-        "stencil-async-content",
-        null
+        "5e3mm8py",
+        "6h3gn76l"
       ],
       0,
       [
@@ -52,8 +52,8 @@
     [
       "stencil-route",
       [
-        "stencil-async-content",
-        null
+        "5e3mm8py",
+        "6h3gn76l"
       ],
       0,
       [
@@ -116,8 +116,8 @@
     [
       "stencil-route-link",
       [
-        "stencil-async-content",
-        null
+        "5e3mm8py",
+        "6h3gn76l"
       ],
       0,
       [
@@ -176,8 +176,8 @@
     [
       "stencil-route-title",
       [
-        "stencil-async-content",
-        null
+        "5e3mm8py",
+        "6h3gn76l"
       ],
       0,
       [
@@ -199,8 +199,8 @@
     [
       "stencil-router",
       [
-        "stencil-async-content",
-        null
+        "5e3mm8py",
+        "6h3gn76l"
       ],
       0,
       [
@@ -234,8 +234,8 @@
     [
       "stencil-router-redirect",
       [
-        "stencil-async-content",
-        null
+        "5e3mm8py",
+        "6h3gn76l"
       ],
       0,
       [
@@ -257,15 +257,15 @@
     [
       "test-app",
       [
-        "test-app",
-        null
+        "cv7cbtbi",
+        "orsdhirh"
       ]
     ],
     [
       "test-carousel",
       [
-        "st-3d-card-carousel",
-        null
+        "ianza1ro",
+        "xdmtg5le"
       ],
       1,
       [
@@ -278,8 +278,8 @@
     [
       "test-demo-four",
       [
-        "test-app",
-        null
+        "cv7cbtbi",
+        "orsdhirh"
       ],
       0,
       [
@@ -306,8 +306,8 @@
     [
       "test-demo-six",
       [
-        "test-app",
-        null
+        "cv7cbtbi",
+        "orsdhirh"
       ],
       0,
       [
@@ -334,8 +334,8 @@
     [
       "test-demo-three",
       [
-        "test-app",
-        null
+        "cv7cbtbi",
+        "orsdhirh"
       ],
       0,
       [
@@ -361,7 +361,7 @@
     ]
   ],
   "global": "app.global.js",
-  "core": "app.core.js",
-  "coreSsr": "app.core.ssr.js",
-  "corePolyfilled": "es5-build-disabled.js"
+  "core": "app.pagk7hg3.js",
+  "coreSsr": "app.gn7g27ae.js",
+  "corePolyfilled": "app.1say8tvz.js"
 }

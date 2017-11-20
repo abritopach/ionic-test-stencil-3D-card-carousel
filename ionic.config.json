@@ -2,5 +2,7 @@
   "name": "ionic-test-stencil-3D-card-carousel",
   "app_id": "",
   "type": "ionic-angular",
-  "integrations": {}
+  "integrations": {
+    "cordova": {}
+  }
 }
